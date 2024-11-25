@@ -19,13 +19,13 @@ body {
 }
 
 .square {
-    flex: 1 0 calc(6.25% - 1px); /* 100% ÷ 16 = 6.25% */
+    flex: 1 0 calc(6.25% - 1px);
     aspect-ratio: 1/1;
     background-color: #3498db;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.square.active {
+.square.colored {
     background-color: black;
 }
