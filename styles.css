@@ -2,9 +2,12 @@ body {
     margin: 0;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    gap: 20px;
 }
 
 .grid-container {
@@ -28,4 +31,19 @@ body {
 
 .square.colored {
     background-color: black;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset-btn:hover {
+    background-color: #c0392b;
 }
